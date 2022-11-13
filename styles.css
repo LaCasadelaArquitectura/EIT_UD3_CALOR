@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
+h1 {
+    
+text-align: center;
 
+}
 img {
 display: block;
 width: 70%;
@@ -18,4 +22,11 @@ font-size:120%;
 }
 
 
+td, th {
 
+    width: 50%;
+}
+
+p{
+    font-size:110%; 
+}
