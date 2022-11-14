@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qs Diagrama</title>
+   <style>
+h1 {
+    
+    text-align: center;
+}
+    table, td, th {
+
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+border-spacing: 5px;
+font-size:120%;
+}
+td, th {
+
+    width: 50%;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size:120%; 
+    width: 90%;
+}
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:120%; 
+    width: 80%;
+
+}
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size:130%; 
+    width: 90%;
+}
+
+
+   </style> 
+    
+
+</head>
+<body>
+    <h1>Diagrama ejemplo cálculo de calor sensible</h1>
+    <br>
+
+    <div style="text-align: center;">
+<img src="./images/calor sensible1.png" alt="Diagrama calor sensible" usemap="#workmap" width="900" height="500">
+</div>
+   
+
+    <br><br>
+    <p>Para poder calcular el calor sensible necesitamos primero conocer algunas constantes.</p>
+    <ul><dl>
+        <li>1º El calor espcifico del aire:
+            <br>
+            <dd>- Es la energia en Kcal, necesaria para aumentar 1 <sup>º</sup>C la temperatura del aire.</dd> 
+            <dd>- Su valor es una constante llamada (C<sub>e</sub>).</dd> 
+            <dd>- Su valor es 0.24 (Kcal / <sup>º</sup>C*Kg).</dd>
+            <br>
+        <li>1º El Peso espcifico del aire:
+            <br>
+            <dd>- Es el peso de 1m<sup>3</sup>de aire.</dd> 
+            <dd>- Su valor es una constante llamada (P<sub>e</sub>).</dd> 
+            <dd>- Su valor es 1.24 (Kg / m<sup>3)</sup>.</dd>
+            <br>
+        <li>1º El Volumen de aire del espacio que estamos calculando en m<sup>3</sup> :
+            <br>
+            <dd>- Si no nos lo dan directamente tendremos que calcularlo.</dd> 
+            <dd>- se calcula multiplicando Lado x Lado x Altura.</dd> 
+            <dd>- O multiplicando m<sup>2</sup> de superficie x Altura.</dd>
+            <br>    
+        <li>La diferencia de temperaturas obtenidas del diagrama psicrometrico.</li>
+            <dd>- En el ejemplo de arriba, se puede observar que la diferencia de temperaturas</dd> 
+            <dd>- se calcula restando la temperatura incial a la temperatura final.</dd> 
+            <dd>- 38<sup>º</sup>C - 21 <sup>º</sup>C = 17 <sup>º</sup>C</dd>
+            <br>  
+      </ul></dl>
+<h2>Finalmente la fórmula quedaría de la sigiente manera:</h2>
+<ul><dl>
+    <dd><h3 style="font-size: 190%;"><strong></strong> Q<sub>S</sub> = C<sub>e</sub> x P<sub>e</sub> x V x Δ temperatura </strong></h3></dd>
+</ul></dl>
+    <h2>Siguiendo el ejemplo anterior y suponiendo una sala de 150m<sup>3</sup> quedaría de la sigiente manera:</h2>
+    <ul><dl>
+        <dd><h3 style="font-size: 190%;"><strong></strong> Q<sub>S</sub> = 0.24 x 1.24 x 150 x (38<sup>º</sup> - 21<sup>º</sup>) </strong></h3></dd>
+        <dd><h3 style="font-size: 190%;"><strong></strong> Q<sub>S</sub> = 758.88 Kcal </strong></h3></dd>
+    </ul></dl>
+        <br>
