@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qs Diagrama</title>
+    <link rel="stylesheet" href="./styles.css">
+  
+
+</head>
+<body>
+    <h1>Ejemplo cálculo de calor Latente</h1>
+    <br>
+
+    <div style="text-align: center;">
+<img src="./images/calor latente 1.png" alt="Diagrama calor Latente">
+</div>
+   
+<div style="margin-left: auto; margin-right: auto;width: 70%;">
+    <br><br>
+    <p>Para poder calcular el calor latente necesitamos primero conocer algunas constantes.</p>
+    <ul><dl>
+        <li>1º El calor espcifico del vapor de agua:
+            <br>
+            <dd>- Es la energia en Kcal, necesaria evaporar 1g de agua.</dd> 
+            <dd>- Su valor es una constante llamada (C<sub>v</sub>).</dd> 
+            <dd>- Su valor es 0.6 (Kcal / g).</dd>
+            <br>
+        <li>2º El Peso espcifico del aire:
+            <br>
+            <dd>- Es el peso de 1m<sup>3</sup>de aire.</dd> 
+            <dd>- Su valor es una constante llamada (P<sub>e</sub>).</dd> 
+            <dd>- Su valor es 1.24 (Kg / m<sup>3)</sup>.</dd>
+            <br>
+        <li>3º El Volumen de aire del espacio que estamos calculando en m<sup>3</sup> :
+            <br>
+            <dd>- Si no nos lo dan directamente tendremos que calcularlo.</dd> 
+            <dd>- Se calcula multiplicando Lado x Lado x Altura.</dd> 
+            <dd>- O multiplicando m<sup>2</sup> de superficie x Altura.</dd>
+            <br>    
+        <li>4º La diferencia de humedad absoluta obtenida del diagrama psicrometrico.</li>
+            <dd>- En el ejemplo de arriba, se puede observar que la diferencia de humedades absolutas</dd> 
+            <dd>- Se calcula restando la humedad incial a la humedad final.</dd> 
+            <dd>- 0.02Kg - 0.01Kg = 0.01Kg de vapor de agua por kg de aire seco</dd>
+            <dd>- Para poder aplicarlo a la formula debemos pasarlo a gramos.</dd>
+            <dd>-  0.01Kg = 10g</dd>
+            <br>  
+      </ul></dl>
+<h2>Finalmente la fórmula quedaría de la sigiente manera:</h2>
+<ul><dl>
+    <dd><h3 style="font-size: 190%;"><strong></strong> Q<sub>v</sub> = C<sub>v</sub> x P<sub>e</sub> x V x Δ humedad </strong></h3></dd>
+</ul></dl>
+    <h2>Siguiendo el ejemplo anterior y suponiendo una sala de 150m<sup>3</sup> quedaría de la sigiente manera:</h2>
+    <ul><dl>
+        <dd><h3 style="font-size: 190%;"><strong></strong> Q<sub>v</sub> = 0.6 x 1.24 x 150 x 10g </strong></h3></dd>
+        <dd><h3 style="font-size: 190%;"><strong></strong> Q<sub>v</sub> = 1116 Kcal </strong></h3></dd>
+    </ul></dl>
+    <p>La pequeña diferencia entre este resultado y el obtenido mediante la formula de la entalpia se debe unicamente a pequeños errores al dibujar</p>
+</div>       
+
+    <table style="width: 100%;border-spacing: 30px " >
+        <tr>   
+             <th Style=" font-size:110%;  padding: 15px;border: 1px solid black;"> <a href="./FormasDeCalor.html">Volver a tipos de calor</a></th>
+            
+             <th Style=" font-size:110%;padding: 15px;border: 1px solid black;"><a href="./QLFormulaE copy.html">Calcular Q<sub>L</sub> mediante la formula de la entalpia</a></th>
+        </tr>
+    </table>   

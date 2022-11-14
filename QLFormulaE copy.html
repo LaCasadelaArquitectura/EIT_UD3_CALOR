@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qs Diagrama</title>
+    <link rel="stylesheet" href="./styles.css">
+  
+
+</head>
+<body>
+    <h1>Ejemplo cálculo de calor Latente</h1>
+    <br>
+
+    <div style="text-align: center;">
+<img src="./images/calor latente 1.png" alt="Diagrama calor sensible">
+</div>
+   
+<div style="margin-left: auto; margin-right: auto;width: 70%;">
+    <br><br>
+    <p>Para poder calcular el calor latente mediante la entalpía necesitamos conocer algunas constantes.</p>
+    <ul><dl>
+        <li>1º El Peso espcifico del aire:
+            <br>
+            <dd>- Es el peso de 1m<sup>3</sup>de aire.</dd> 
+            <dd>- Su valor es una constante llamada (P<sub>e</sub>).</dd> 
+            <dd>- Su valor es 1.24 (Kg / m<sup>3)</sup>.</dd>
+            <br>
+        <li>2º El Volumen de aire del espacio que estamos calculando en m<sup>3</sup> :
+            <br>
+            <dd>- Si no nos lo dan directamente tendremos que calcularlo.</dd> 
+            <dd>- se calcula multiplicando Lado x Lado x Altura.</dd> 
+            <dd>- O multiplicando m<sup>2</sup> de superficie x Altura.</dd>
+            <br>    
+        <li>3º La diferencia de Entalpías obtenidas del diagrama psicrometrico.</li>
+            <dd>- En el ejemplo de arriba, se puede observar que la diferencia de Entalpías</dd> 
+            <dd>- se calcula restando la entalpía incial a la entalpía final.</dd> 
+            <dd>- 92.5 Kj - 65 Kj = 27.5 Kj</dd>
+            <br>  
+        <li>4º Dado que en nuestro diagrama psicrometrico la entalpia esta en Kj .</li>
+            <dd>- Primero debemos hacer la conversion a Kcal</dd> 
+            <dd>- 1 kJ = 0,2390 kcal</dd> 
+            <dd>- Por tanto: 27.5 Kj = 6.57 Kcal</dd>
+            <br>  
+      </ul></dl>
+<h2>Finalmente la fórmula quedaría de la sigiente manera:</h2>
+<ul><dl>
+    <dd><h3 style="font-size: 190%;"><strong></strong> Q<sub>T</sub> = P<sub>e</sub> x V x Δ Entalpía </strong></h3></dd>
+</ul></dl>
+    <h2>Siguiendo el ejemplo anterior y suponiendo una sala de 150m<sup>3</sup> quedaría de la sigiente manera:</h2>
+    <ul><dl>
+        <dd><h3 style="font-size: 190%;"><strong></strong> Q<sub>S</sub> = 1.24 x 150 x 6.57</strong></h3></dd>
+        <dd><h3 style="font-size: 190%;"><strong></strong> Q<sub>S</sub> = 1222.02 Kcal </strong></h3></dd>
+    </ul></dl>
+    <p>La pequeña diferencia entre este resultado y el obtenido mediante la formula del calor sensible se debe unicamente a pequeños errores al dibujar</p>
+</div>       
+
+    <table style="width: 100%;border-spacing: 30px " >
+        <tr>   
+             <th Style=" font-size:110%;  padding: 15px;border: 1px solid black;"> <a href="./FormasDeCalor.html">Volver a tipos de calor</a></th>
+            
+             <th Style=" font-size:110%;padding: 15px;border: 1px solid black;"><a href="./QLFormulaH.html">Calcular Q<sub>L</sub> mediante la formula del calor Latente</a></th>
+        </tr>
+    </table>   
