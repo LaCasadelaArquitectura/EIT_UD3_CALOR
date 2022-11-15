@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qs Diagrama</title>
+    <link rel="stylesheet" href="./styles.css">
+  
+
+</head>
+<body>
+    <h1>Ejemplo cálculo de calor Latente</h1>
+    <br>
+
+    <div style="text-align: center;">
+<img src="./images/Calor total.png" alt="Diagrama calor sensible">
+</div>
+   
+<div style="margin-left: auto; margin-right: auto;width: 70%;">
+    <br><br>
+    <p>Para calcular el calor total podemos hacerlo mediante 2 métodos:</p>
+    <ul><dl>
+        <li>1º Mediante la suma de calor sensible Q<sub>S</sub> y calor latente Q<sub>L</sub>  :
+            <br><br>
+            <dd>- Q<sub>S</sub> = C<sub>e</sub> x P<sub>e</sub> x V x Δ temperatura </dd> 
+            <dd>- Q<sub>L</sub> = C<sub>v</sub> x P<sub>e</sub> x V x Δ humedad </dd>
+            <dd>- Q<sub>T</sub> = Q<sub>S</sub> + Q<sub>L</sub></dd> 
+            <br>
+            <dd>- Q<sub>S</sub> = 0.24 x 1.24 x 150 x (40<sup>º</sup> - 19<sup>º</sup>) = 937.44 Kcal</dd>
+            <dd>- Q<sub>L</sub> = 0.6 x 1.24 x 150 x 10g = 1116 Kcal</dd>
+            <dd>- Q<sub>T</sub> = 937.44 + 1116 = 2053.44 Kcal</dd>
+            <br>
+        <li>2º Mediante la formula de la entalpía :
+            <br><br>
+            <dd>- Q<sub>T</sub> = P<sub>e</sub> x V x Δ Entalpía</dd> 
+            <br>    
+            <dd>- Δ Entalpía= 92.5 Kj - 45 Kj = 47.5 Kj</dd>  
+            <dd>- 47,5Kj = 11.35 Kcal</dd>
+            <br>
+            <dd>- Q<sub>T</sub> = 1.24 x 150 x 11.35 = 2111 Kcal</dd>
+            <br>  
+  
+      </ul></dl>
+
+    <p>La pequeña diferencia entre ambos resultados se debe unicamente a pequeños errores al dibujar</p>
+</div>       
+
+    <table style="width: 100%;border-spacing: 30px " >
+        <tr>   
+             <th Style=" font-size:110%;  padding: 15px;border: 1px solid black;"> <a href="./FormasDeCalor.html">Volver a tipos de calor</a></th>
+            
+             <th Style=" font-size:110%;padding: 15px;border: 1px solid black;"><a href="./QLFormulaH.html">Calcular Q<sub>L</sub> mediante la formula del calor Latente</a></th>
+        </tr>
+    </table>   
